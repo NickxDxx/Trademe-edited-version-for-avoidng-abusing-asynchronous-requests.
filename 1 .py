@@ -127,7 +127,3 @@ if __name__ == '__main__':
     # stop = time.time()
     # running_time = stop - start
 
-# text = soup.text
-# for x in text:
-#     if "Liz Potter" in x:
-#         print(x)
