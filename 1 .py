@@ -17,6 +17,9 @@ async def get_responses(number):
     async with aiohttp.ClientSession() as session:
         async with session.get(url = url,headers = headers, params = params) as resp:
             very_raw = await resp.json()
+            
+            
+            '''Data comparison'''
             for current_dic_number in range(len(very_raw["List"])):
                 local_dic = very_raw["List"][current_dic_number]
                 print(local_dic)
@@ -28,6 +31,7 @@ async def get_responses(number):
                 for key in long:
                     if key not in local_key_list:
                         final_list.append("/")
+                    '''Data processing'''    
                     elif key == "StartDate" or key == "EndDate":
                         new_key = str(datetime.fromtimestamp(int(re.findall('\d+', local_dic[key])[0]) / 1000))
                         final_list.append(new_key)
@@ -62,7 +66,7 @@ async def get_responses(number):
 
 async def main():
     tasks = []
-    for number in range(1, 3):
+    for number in range(1, 64):
         tasks.append(get_responses(number))
     await asyncio.gather(*tasks)
 
