@@ -66,7 +66,7 @@ async def get_responses(number):
 
 async def main():
     tasks = []
-    for number in range(1, 64):
+    for number in range(1,3):
         tasks.append(get_responses(number))
     await asyncio.gather(*tasks)
 
