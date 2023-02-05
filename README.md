@@ -15,5 +15,14 @@
 
 
 ![Screenshot 2023-01-02 163936](https://user-images.githubusercontent.com/124453554/216780865-9addbefe-0b6a-4475-9972-d08ea4b5a9a1.png)
+
+
+![data filter detection  ](https://user-images.githubusercontent.com/124453554/216840476-2f33908c-e5bc-4fbb-be98-8e5480663394.png)
+
+![Screenshot 2023-01-12 162752](https://user-images.githubusercontent.com/124453554/216840478-45c843a1-9de6-4d5b-b872-2e9bf5035a1e.png)
+
+![Screenshot 2023-01-12 170420](https://user-images.githubusercontent.com/124453554/216840484-ea9b7c80-b4e1-478b-8f81-07dd3648ef9f.png)
+![22 seconds ](https://user-images.githubusercontent.com/124453554/216840485-4f587869-f429-4ec3-b731-23da0eca37be.png)
+
 ![ALL](https://user-images.githubusercontent.com/124453554/216780871-f947eb60-06d7-466a-96e1-e0d41ba2a77c.png)
 ![Asking price offical ](https://user-images.githubusercontent.com/124453554/216780885-88274428-3859-4911-a258-704d21fe7c46.png)
