@@ -12,8 +12,8 @@ import re
 async def get_responses(number):
     stringnumber = str(number)
     print("Start at " + stringnumber)
-    params = {
-        }
+    params = {/
+             }
     async with aiohttp.ClientSession() as session:
         async with session.get(url = url,headers = headers, params = params) as resp:
             very_raw = await resp.json()
@@ -63,7 +63,7 @@ async def get_responses(number):
 
 async def main():
     tasks = []
-    for number in range(1,3):
+    for number in range(/):
         tasks.append(get_responses(number))
     await asyncio.gather(*tasks)
 
@@ -97,7 +97,7 @@ if __name__ == '__main__':
         # 'x-trademe-uniqueclientid': '51f6a3d6-24e6-c673-45fe-8646ad15be04'
 
     }
-    url = "https://api.trademe.co.nz/v1/search"
+    url = "/"
 
     with open("120920222.csv", "a", newline="") as file:
         writer = csv.writer(file)
