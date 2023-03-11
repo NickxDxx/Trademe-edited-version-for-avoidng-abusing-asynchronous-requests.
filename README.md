@@ -10,4 +10,5 @@ The program support crawling whole Tradme.com (New Zealand version Amazon) real 
 ![Screenshot 2023-01-02 164021](https://user-images.githubusercontent.com/124453554/224488589-9bb7f741-8097-4418-aaeb-94b08de79379.png)
 ![local dic ](https://user-images.githubusercontent.com/124453554/224488595-09a26da5-205a-481b-877f-2b8948cca020.png)
 ![Asking price ](https://user-images.githubusercontent.com/124453554/224488605-2b244b72-230c-4d10-b702-b8a1251a0428.png)
+![District](https://user-images.githubusercontent.com/124453554/224488654-5e70f747-ff3f-4e25-afa1-da987cb756c9.png)
 ![ALL](https://user-images.githubusercontent.com/124453554/224488615-f8ce4864-fea2-46a6-9ae8-f212f9a0a8bd.png)
