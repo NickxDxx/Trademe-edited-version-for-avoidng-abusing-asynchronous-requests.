@@ -17,9 +17,6 @@ async def get_responses(number):
     async with aiohttp.ClientSession() as session:
         async with session.get(url = url,headers = headers, params = params) as resp:
             very_raw = await resp.json()
-            
-            
-            '''Data comparison'''
             for current_dic_number in range(len(very_raw["List"])):
                 local_dic = very_raw["List"][current_dic_number]
                 print(local_dic)
