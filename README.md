@@ -1,17 +1,8 @@
-# Asynchronous-scraping-with-hard-data-comparison-
-32K listings in 20 seconds.
+The program support crawling whole Tradme.com (New Zealand version Amazon) real estate listings (32K), processing cleaned data and given whole CSV database in every 20 seconds.
 
-
-
-1. Twaek API output 500 listings dictionaries instead default 20.
-2. Data comparison:
-   1. Inside each listing's dictionary, all possible keys' position don't have time wasted to capture.
-      keys' number random, positions fixed.
-   S: Capture all possible dic keys. Split into long list(kept) and low list(filtered), 
-      Each input data go through low list, filtered out any keys not inside the low list, long list keys go through filtered keys, any keys not inside filtered keys insert "/".
-   2. Milliseconds date time inside dictionary value's string.
-   S: Use Regrex convert all to Human knowledged date time.
-3. Add Asynchronous speed up process.
+1. Twisting API
+2. Wranling/processing 500 JSON listings in a cleaned formated (201231415151 millseconds into formal date) in every request.
+3. Writing in CSV using "await" fasting writing time.
 
 
 ![Screenshot 2023-01-02 163936](https://user-images.githubusercontent.com/124453554/216780865-9addbefe-0b6a-4475-9972-d08ea4b5a9a1.png)
