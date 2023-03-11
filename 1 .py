@@ -27,8 +27,7 @@ async def get_responses(number):
                         local_key_list.append(keys)
                 for key in long:
                     if key not in local_key_list:
-                        final_list.append("/")
-                    '''Data processing'''    
+                        final_list.append("/")  
                     elif key == "StartDate" or key == "EndDate":
                         new_key = str(datetime.fromtimestamp(int(re.findall('\d+', local_dic[key])[0]) / 1000))
                         final_list.append(new_key)
